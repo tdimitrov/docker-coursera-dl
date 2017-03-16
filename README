@@ -1,0 +1,3 @@
+Intended use:
+
+docker run --rm -v ${PWD}:/root/workdir:rw tdimitrov/coursera-dl
