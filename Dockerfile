@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+ENV REFRESHED_AT 10-JUN-2017
+
 RUN apt-get update
 RUN apt-get install -y python-pip build-essential libssl-dev libffi-dev python-dev git
 RUN pip install --upgrade pip
