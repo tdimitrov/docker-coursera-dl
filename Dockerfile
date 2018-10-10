@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV REFRESHED_AT 27-FEB-2018
+ENV REFRESHED_AT 10-OCT-2018
 
 RUN apt-get update
 RUN apt-get install -y python python3-pip build-essential libssl-dev libffi-dev python3-dev git
